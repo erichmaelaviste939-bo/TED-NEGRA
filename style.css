@@ -1,0 +1,60 @@
+:root {
+      --violet-dark: #5c3a99;
+      --violet-medium: #7e57c2;
+      --violet-light: #b39ddb;
+      --violet-bg: #ede7f6;
+      --text-dark: #2e0854;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--violet-bg);
+      color: var(--text-dark);
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+    }
+    .profile-container {
+      background-color: white;
+      box-shadow: 0 4px 12px rgba(94, 57, 129, 0.2);
+      border-radius: 10px;
+      max-width: 400px;
+      width: 100%;
+      padding: 20px;
+      text-align: center;
+    }
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid var(--violet-medium);
+      margin-bottom: 15px;
+    }
+    h1 {
+      margin: 10px 0;
+      color: var(--violet-dark);
+    }
+    #story {
+      background-color: var(--violet-light);
+      padding: 15px;
+      border-radius: 8px;
+      min-height: 100px;
+      text-align: left;
+      white-space: pre-wrap;
+      margin-bottom: 15px;
+      font-size: 1rem;
+    }
+    button {
+      background-color: var(--violet-medium);
+      border: none;
+      color: white;
+      padding: 10px 25px;
+      font-size: 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: var(--violet-dark);
+    } 
